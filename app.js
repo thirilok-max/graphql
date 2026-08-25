@@ -5,6 +5,13 @@ app.use(express.json());
 const {graphqlHTTP}=require("express-graphql");
 const {buildSechma}=require("graphql");
 
+// const mySechma=buildSechma(`
+//     type User{
+//     id:"ID",
+//     name:"name",
+//     email:"email",
+//     password:"password"
+// }`);
 const User=[
     {
         id:"1",
